@@ -17,3 +17,8 @@ def merge_arrays(lst1, lst2):
   return lst1
 
 print(merge_arrays([4, 5, 6], [-2, -1, 0, 7]))
+
+# Time Complexity
+## the time complexity is O(m(n+m))  where n and m are the lengths of the lists. Both lists are not traversed separately so we cannot say that 
+## complexity is (m + n). In the worst-case, the second list has all the elements that are smaller than the elements of the first list. 
+## In this case, the complexity will be O(mn).
