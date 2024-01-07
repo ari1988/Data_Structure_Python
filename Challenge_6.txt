@@ -1,0 +1,16 @@
+Challenge: First Non-Repeating Integer in a List
+
+Problem Statement
+Implement a function, find_first_unique(lst) that returns the first unique integer in the list.
+
+Input
+A list of integers
+
+Output
+The first unique element in the list
+
+Sample Input
+[9,2,3,2,6,6]
+
+Sample Output
+9
