@@ -3,7 +3,7 @@ def find_first_unique(lst):
         index2 = 0
         # iterate the second list using index2
         while(index2 < len(lst)):
-            if (index1 != index2 and lst[index1] == lst[index2]):
+            if (index1 != index2 and lst[index1] == lst[index2]): ## verify if they both don't point to same value
                 break
             index2 += 1
         if (index2 == len(lst)):
