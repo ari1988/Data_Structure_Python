@@ -20,6 +20,27 @@ class LinkedList:
         else:
             return False
 
+    def insert_at_head(self, dt):
+            temp_node = Node(dt)
+            temp_node.next_element = self.head_node
+            self.head_node = temp_node
+            return self.head_node
+# Inserts a value at the end of the list
+    def insert_at_tail(self, value):
+        # Creating a new node
+        new_node = Node(value)
+        # Check if the list is empty, if it is simply point head to new node
+        if self.get_head() is None:
+            self.head_node = new_node
+            return
+        # if list not empty, traverse the list to the last node
+        temp = self.get_head()
+        while temp.next_element is not None:
+            temp = temp.next_element
+        # Set the nextElement of the previous node to new node
+        temp.next_element = new_node
+        return
+
     # Supplementary print function
     def print_list(self):
         if(self.is_empty()):
