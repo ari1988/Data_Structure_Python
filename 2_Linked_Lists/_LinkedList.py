@@ -52,6 +52,7 @@ class LinkedList:
             temp = temp.next_element
         print(temp.data, "-> None")
         return True
+
     def delete_at_head(self):
         # Get Head and firstElement of List
         first_element = self.get_head()
