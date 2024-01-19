@@ -52,3 +52,26 @@ class LinkedList:
             temp = temp.next_element
         print(temp.data, "-> None")
         return True
+    def delete_at_head(self):
+        # Get Head and firstElement of List
+        first_element = self.get_head()
+        # If List is not empty then link head to the
+        # nextElement of firstElement.
+        if (first_element is not None):
+            self.head_node = first_element.next_element
+            first_element.next_element = None
+        return
+
+
+    def search(self, dt):
+        if self.is_empty():
+            print("List is Empty")
+            return None
+        temp = self.head_node
+        while(temp is not None):
+            if(temp.data is dt):
+                return temp
+            temp = temp.next_element
+
+        print(dt, " is not in List!")
+        return None
