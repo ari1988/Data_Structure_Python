@@ -18,6 +18,6 @@ class Node:
         self.next_element = None  # Stores pointer to next element
 ```
 
-> Explanation: data and next_element remain unchanged. The previous_element pointer has been introduced to store information about the preceding node.
+> Explanation: data and next_element remain unchanged. The previous_element pointer has been introduced to store information about the
+> preceding node.
 ![Alt text](image-3.png)
-
