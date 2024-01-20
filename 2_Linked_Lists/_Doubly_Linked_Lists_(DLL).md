@@ -19,5 +19,5 @@ class Node:
 ```
 
 > Explanation: data and next_element remain unchanged. The previous_element pointer has been introduced to store information about the preceding node.
-![Alt text](image-3.png)
 
+![Alt text](image-3.png)
