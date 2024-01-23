@@ -77,3 +77,14 @@ class LinkedList:
 
         print(dt, " is not in List!")
         return None
+    
+    def length(self):
+        # start from the first element
+        curr = self.get_head()
+        length = 0
+
+        # Traverse the list and count the number of nodes
+        while curr is not None:
+            length += 1
+            curr = curr.next_element
+        return length
