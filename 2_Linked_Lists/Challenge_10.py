@@ -49,6 +49,8 @@ def find_nth1(lst,n):
 
   return nth_node.data
 
+## Time Complexity#
+## A single iteration is performed, which means that time complexity is O(n).
 
 lst = LinkedList()
 lst.insert_at_head(21)
