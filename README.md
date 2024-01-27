@@ -4,8 +4,8 @@ Data structure questions and solutions for Python
 
 ## Lists
 
-1. [🎯 Remove Even Integers from List](Data_Structure_Python/_Lists/Challenge_1.txt) -
-   [💡 Solution](Data_Structure_Python/1_Lists/Challenge_1.py)
+1. [🎯 Remove Even Integers from List](_Lists/Challenge_1.txt) -
+   [💡 Solution](1_Lists/Challenge_1.py)
 2. [🎯 Merge Two Sorted Lists](1_Lists\Challenge_2.txt) - [💡 Solution](1_Lists\Challenge_2.py)
 3. [🎯 Find Two Numbers that Add up to "k"](1_Lists\Challenge_3.txt) - [💡 Solution](1_Lists\Challenge_3.py)
 4. [🎯 List of Products of all Elements](1_Lists\Challenge_4.txt) - [💡 Solution](1_Lists\Challenge_4.py)
