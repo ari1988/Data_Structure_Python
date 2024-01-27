@@ -49,7 +49,6 @@ class DoublyLinkedList:
             nodeToRemove.next_element = None
         self.length-=1
         return nodeToRemove.data
-  
 
     def tail_node(self):
         if (self.head != None):
