@@ -1,0 +1,16 @@
+Challenge: Generate Binary Numbers from 1 to n using a Queue
+
+Problem Statement
+Implement a function find_bin(n) which will generate binary numbers from 1 till n in the form of a string using a queue. The MyQueue and MyStack classes are provided in all of these challenges. 
+
+Input
+A positive integer n
+
+Output
+Returns binary numbers in the form of strings from 1 up to n
+
+Sample Input
+n = 3
+
+Sample Output#
+result = ["1","10","11"]
