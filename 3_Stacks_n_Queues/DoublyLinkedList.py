@@ -56,3 +56,18 @@ class DoublyLinkedList:
             return self.tail.data
         else:
             return False
+    
+    def __str__(self):
+        val=""
+        if(self.is_empty()):
+            return ""
+        else:
+            temp = self.head
+            val = "[" + str(temp.data) + ", "
+            temp = temp.next_element
+            
+            while (temp.next_element):
+                val = val + str(temp.data) + ", "
+                temp = temp.next_element
+            val = val + str(temp.data) + "]"
+        return val

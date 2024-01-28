@@ -25,3 +25,6 @@ class MyQueue:
 
     def dequeue(self):
         return self.items.remove_head()
+    
+    def display(self):
+        return self.items.__str__()    
