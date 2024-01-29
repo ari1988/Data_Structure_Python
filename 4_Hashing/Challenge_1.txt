@@ -1,0 +1,21 @@
+Challenge: A List as a Subset of Another List
+
+Problem Statement
+Implement the is_subset(list1,list2) function which will takes two lists as input and checks whether one list is the subset of the other. This method is already available in Python, but we’ll be implementing it using hash tables.
+
+Note: The input lists do not contain duplicate values.
+
+Use the Python set as your hash table.
+
+Input
+Two lists of integers.
+
+Output
+True if list2 is a subset of list1.
+
+Sample Input
+list1 = [9,4,7,1,-2,6,5]
+list2 = [7,1,-2]
+
+Sample Output
+True
