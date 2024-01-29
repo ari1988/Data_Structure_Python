@@ -15,6 +15,10 @@ def reverseK(queue, k):
         queue.enqueue(queue.dequeue())
     return None
 
+## Time Complexity
+## The time complexity of this function is O(n) where n is the size of the queue as the entire queue is iterated over. 
+## k elements are iterated over in the first two loops and size-k are iterated over in the last loop which sums up to n iterations.
+
 if __name__ == "__main__" :
     # testing our logic
     queue = MyQueue()
