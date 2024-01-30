@@ -1,0 +1,17 @@
+Challenge: Check if Lists are Disjoint
+
+Problem Statement
+You have to implement the is_disjoint() function which checks whether two given lists are disjoint or not. Two lists are disjoint if there are no common elements between them. The assumption is that there are no duplicate elements in each list.
+
+Input
+Two lists of integers.
+
+Output
+It returns True if the two are disjoint. Otherwise, it returns False.
+
+Sample Input
+list1 = [9,4,3,1,-2,6,5]
+list2 = [7,10,8]
+
+Sample Output#
+True
