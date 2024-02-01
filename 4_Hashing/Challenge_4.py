@@ -22,7 +22,7 @@ def trace_path(my_dict):
     reverse_dict[my_dict.get(key)] = key
   #Find the starting point of itenerary
   from_loc = None
-  keys_rev = reverse_dict.keys()
+  # keys_rev = reverse_dict.keys()
   for key in keys:
     if key not in reverse_dict:
       from_loc = key
