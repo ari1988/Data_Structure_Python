@@ -16,6 +16,8 @@ def is_formation_possible(lst, word):
   return False
 
 ## Note: The solution only works for two words and not more.
+## Time Complexity
+## O(n)
 
 keys = ["the", "hello", "there", "answer",
         "any", "educative", "world", "their", "abc"]

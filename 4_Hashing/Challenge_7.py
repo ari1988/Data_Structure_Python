@@ -28,6 +28,10 @@ def is_formation_possible(lst, word):
 
     return False
 
+## Time Complexity#
+## We perform the insert operation m times for a list of size m. After that, 
+## we linearly traverse the word of size n once. Furthermore, we slice strings of size n in each iteration. Hence the total time complexity is 
+## O(m+n^2)
 
 keys = ["the", "hello", "there", "answer",
         "any", "educative", "world", "their", "abc"]
