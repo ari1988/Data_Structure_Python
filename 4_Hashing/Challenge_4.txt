@@ -1,0 +1,21 @@
+Challenge: Trace the Complete Path of a Journey
+
+Problem Statement
+You have to implement the trace_path() function which will take in a list of source-destination pairs and return the correct sequence of the whole journey from the first city to the last.
+
+Input
+A Python dict containing string pairs of source-destination cities.
+
+Output
+A list of source-destination pairs in the correct order.
+
+Sample Input
+dict = {
+  "NewYork": "Chicago",
+  "Boston": "Texas",
+  "Missouri": "NewYork",
+  "Texas": "Missouri"
+}
+
+Sample Output
+[["Boston", "Texas"] , ["Texas", "Missouri"] , ["Missouri", "NewYork"] , ["NewYork", "Chicago"]]
