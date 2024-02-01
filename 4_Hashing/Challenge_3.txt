@@ -1,0 +1,16 @@
+Challenge: Find Symmetric Pairs in a List
+
+Problem Statement
+By definition, (a, b) and (c, d) are symmetric pairs iff, a = d and b = c. In this problem, you have to implement the find_symmetric(list) function which will find all the symmetric pairs in a given list.
+
+Input
+A list.
+
+Output
+A list containing all the symmetric pairs of elements in the input list.
+
+Sample Input
+list = [[1, 2], [3, 4], [5, 9], [4, 3], [9, 5]]
+
+Sample Output
+[[3, 4], [4, 3], [5, 9], [9, 5]]
