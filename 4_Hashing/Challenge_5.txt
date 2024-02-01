@@ -1,0 +1,19 @@
+Challenge: Find Two Pairs in List such that a+b = c+d
+
+Problem Statement
+In this problem, you have to implement the find_pair() function which will find two pairs, [a, b] and [c, d], in a list such that :
+a+b=c+d
+
+You only have to find the first two pairs in the list which satisfies the above condition.
+
+Input
+A list of distinct integers.
+
+Output
+A list containing two pairs, (a, b) and (c, d), which satisfy a + b = c + d
+
+Sample Input
+my_list = [3, 4, 7, 1, 12, 9]
+
+Sample Output
+[[4,12],[7,9]]
