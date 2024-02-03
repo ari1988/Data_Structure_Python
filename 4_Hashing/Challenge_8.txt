@@ -1,0 +1,20 @@
+Challenge: Find Two Numbers that Add up to "k" - Hashing
+Given a list and a number "n", find two numbers from the list that sum to "k". 
+
+Problem Statement
+In this problem, you have to implement the findSum(lst,k) function which will take a number k as input and return two numbers that add up to k.
+
+You have already seen this in Challenge: Find Two Numbers that Add up to “k”. Here you would use HashTables for a more efficient solution.
+
+Input
+A list and a number k
+
+Output
+A list with two integers a and b that add up to k
+
+Sample Input
+lst = [1,21,3,14,5,60,7,6]
+k = 81
+
+Sample Output
+lst = [21,60]
