@@ -14,9 +14,9 @@ The exact opposite of linear data structures is non-linear data structures. In a
 
 ### Time and Space Complexity Cheat Table
 
-| Data Structure | Insert | Delete | Search | Space Complexity |
-| -------------- | ------ | ------ | ------ | ---------------- |
-| Array          | O(n)   | O(n)   | O(n)   |     O(n)         |
-| Singly Linked list | O(1) (insert at head) | O(1) (delete at head) | O(n) | O(n) |
-| Stack | O(1)(Push) | O(1)(Pop) | O(n) | O(n) |
-| Queue | O(1)(enqueue) | O(1)(dequeu) | O(n) |O(n) |
+| Data Structure     | Insert                | Delete                | Search | Space Complexity |
+| --------------     | ------                | ------                | ------ | ---------------- |
+| Array              | O(n)                  | O(n)                  | O(n)   |     O(n)         |
+| Singly Linked list | O(1) (insert at head) | O(1) (delete at head) | O(n)   | O(n)             |
+| Stack              | O(1)(Push)            | O(1)(Pop)             | O(n)   | O(n)             |
+| Queue              | O(1)(enqueue)         | O(1)(dequeue)         | O(n)   |O(n)              |
