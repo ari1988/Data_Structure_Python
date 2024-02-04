@@ -1,0 +1,20 @@
+Challenge: First Non-Repeating Integer in a List - Hashing
+Given a list, find the first integer which is unique in the list.
+
+Problem Statement
+Implement a function, findFirstUnique(lst) that returns the first unique integer in the list. 
+Unique means the number does not repeat and appears only once in the whole list.
+
+You have already seen this in Challenge: First Non-Repeating Integer in a list. Here you would use dict or set for a more efficient solution.
+
+Input
+A list of integers
+
+Output
+The first unique element in the list
+
+Sample Input
+[9,2,3,2,6,6]
+
+Sample Output
+9
